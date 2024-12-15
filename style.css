@@ -106,7 +106,7 @@ header .warpContainer1 .incontainer2 button:hover{
 }
 
 header #SideBar {
-    display: none;
+    display: flex;
     flex-direction: column;
     margin-top: 10px;
     float: right;
@@ -143,10 +143,21 @@ header #SideBar li a{
 
 
 body main {
-    margin-top:50dvh ;
+    margin-top:40dvh ;
 }
 
 main .warpcontainer1 h1{
     display: flex;
     justify-content: center;
+}
+main .WarpContent1 .warpcontainer2 {
+    display: flex;
+    margin-top: 10dvh;
+}
+main .WarpContent1 .warpcontainer2 img{
+    border-radius: 50%;
+}
+
+main .WarpContent1 .warpcontainer2  .textnya{
+    margin-left: 5vmax;
 }
