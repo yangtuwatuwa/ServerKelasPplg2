@@ -135,7 +135,6 @@ header #SideBar li a{
     background-color: black;
     color: white;
     text-decoration: none;
-
 }
 
 /*main container */
@@ -160,6 +159,9 @@ main .WarpContent1 .warpcontainer2 img{
 }
 
 main .WarpContent1 .warpcontainer2  .textnya{
+    margin-left: 5vmax;
+}
+main .WarpContent1 .warpcontainer2 img{
     margin-left: 2vmax;
 }
 
