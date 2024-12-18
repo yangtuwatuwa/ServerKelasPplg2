@@ -12,17 +12,15 @@ function side() {
     }
 }
 //ini adalah lib h1 yakkk
-   document.addEventListener("DOMContentLoaded", function () {
-          new TypeIt("#Kelas", {
-            strings: ["kelas 10 pplg 2"],
-          }).go();
+    document.addEventListener("DOMContentLoaded", function () {
+        new TypeIt("#Kelas", {
+            strings: ["kelas pplg 2 AKT 24"],
+        }).go();
         });
         document.addEventListener("DOMContentLoaded", function () {
             new TypeIt("#Sejarahnya", {
-                strings: "Kami adalah siswa kelas 10 PPLG 2 dari smk yayasan leo sutrisno. Kami memiliki jumlah murid 38 siswa, 33 siswa dan 5 siswi. tidak terlalu banyak informasi tentang kami, karena kami masih dalam proses pembelajaran. terimkasih",
+                strings: "Kami adalah siswa kelas PPLG 2 Angkatan 2024 dari smk yayasan leo sutrisno. Kami memiliki jumlah murid 38 siswa, 33 siswa dan 5 siswi. tidak terlalu banyak informasi tentang kami, karena kami masih dalam proses pembelajaran. terimkasih",
                 speed: 50,
                 waitUntilVisible: true,
             }).go(); 
         })
-
-        

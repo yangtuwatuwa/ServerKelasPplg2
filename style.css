@@ -4,7 +4,6 @@
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
 
-
 }
 /*header*/
 header nav{
@@ -156,8 +155,15 @@ main .WarpContent1 .warpcontainer2 {
 }
 main .WarpContent1 .warpcontainer2 img{
     border-radius: 50%;
+    margin-left: 5dvh;
+    height: 70px;
 }
 
 main .WarpContent1 .warpcontainer2  .textnya{
-    margin-left: 5vmax;
+    margin-left: 2vmax;
+}
+
+main .WarpContent1 .warpcontainer2 .textnya button{
+    padding: 15px;
+    border-radius: 20px;
 }
