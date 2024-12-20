@@ -4,6 +4,7 @@
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
 
+
 }
 /*header*/
 header nav{
@@ -155,7 +156,7 @@ main .WarpContent1 .warpcontainer2 {
 main .WarpContent1 .warpcontainer2 img{
     border-radius: 50%;
     margin-left: 5dvh;
-    height: 70px;
+    
 }
 
 main .WarpContent1 .warpcontainer2  .textnya{
@@ -176,10 +177,6 @@ main .WarpContent1 .warpcontainer2 .textnya button a{
     color:black;
 }
 
-main .WarpContent1 .KetuaKelas img{
-    
-}
-
 main .KetuaKelas .textnya button{
     padding: 15px;
     border-radius: 20px;
@@ -192,6 +189,80 @@ main .KetuaKelas .textnya button a{
 }
 
 main .KetuaKelas .textnya button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .KetuaKelas img{
+    border-radius: 50%;
+}
+
+main .KetuaKelas {
+    display: flex;
+}
+
+main .KetuaKelas .gambarnya{
+    margin-right: 5vmax;
+    margin-left: 2vmax;
+}
+
+main .WarpContent1 .warpcontainer2 {
+    margin-bottom:5dvh ;
+}
+
+main .WarpContent1 .WakilKetuaKelas { 
+    margin-top: 5dvh;
+    margin-bottom: 5dvh;
+    display: flex;
+    margin-left: 2vmax;
+}
+
+main .WarpContent1 .WakilKetuaKelas .textnya {
+    margin-left: 5vmax;
+}
+
+main .WarpContent1 .WakilKetuaKelas img{
+    border-radius: 50%;
+}
+
+main .WarpContent1 .WakilKetuaKelas .textnya button{
+     padding: 15px;
+     border-radius: 20px;
+}
+
+main .WarpContent1 .SekertarisKelas {
+    margin-top: 5dvh;
+    margin-bottom: 5dvh;
+    display: flex;
+    margin-left: 2vmax;
+}
+main .WarpContent1 .SekertarisKelas .textnya{
+    margin-left: 5vmax;
+}
+
+main .WarpContent1 .SekertarisKelas img{
+    border-radius: 50%;
+}
+
+main .WakilKetuaKelas .textnya button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .warpcontainer2 .textnya button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .WarpContent1 .SekertarisKelas .textnya button {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+main .WarpContent1 .SekertarisKelas .textnya button:hover {
     background-color: black;
     color: white;
     transition: 1s;
