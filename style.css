@@ -144,7 +144,7 @@ body main {
     margin-top:40dvh ;
 }
 
-main .warpcontainer1 h1{
+main .isikontenpertama h1{
     display: flex;
     justify-content: center;
 }
@@ -168,8 +168,31 @@ main .WarpContent1 .warpcontainer2 img{
 main .WarpContent1 .warpcontainer2 .textnya button{
     padding: 15px;
     border-radius: 20px;
+    color: black;
+    text-decoration: none;
+}
+main .WarpContent1 .warpcontainer2 .textnya button a{
+    text-decoration: none;
+    color:black;
 }
 
 main .WarpContent1 .KetuaKelas img{
     
+}
+
+main .KetuaKelas .textnya button{
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+}
+
+main .KetuaKelas .textnya button a{
+    color: black;
+    text-decoration: none;
+}
+
+main .KetuaKelas .textnya button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
 }
