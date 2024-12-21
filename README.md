@@ -2,7 +2,7 @@ Hallo semuanya saya panggalih admin dari server kelas ini. kami memiliki banyak 
 JIKA KALIAN BERNIAT UNTUK MENJADI PENGEMBANG DARI SERVER INI KALIAN BISA MENGHUBUNGI ADMIN MELALUI MEDSOS
 <ul>
   <li>
-    panggalihbayuraka564@gmail.com(email)
+    Rakapanggalih@gmail.com(email)
   </li>
   <li>
     @panggalih65(instagram)
