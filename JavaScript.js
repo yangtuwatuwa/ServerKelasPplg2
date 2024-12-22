@@ -19,7 +19,7 @@ function side() {
         });
         document.addEventListener("DOMContentLoaded", function () {
             new TypeIt("#Sejarahnya", {
-                strings: "Kami adalah siswa/siswi kelas PPLG 2 Angkatan 2024 dari smk yayasan Leo Sutrisno. Kami memiliki jumlah murid 38 siswa, 33 siswa dan 5 siswi. tidak terlalu banyak informasi tentang kami, karena kami masih dalam proses pembelajaran. terimkasih",
+                strings: "Kami adalah siswa/siswi kelas PPLG 2 Angkatan 2027 dari SMK Yayasan Leo Sutrisno. Kami memiliki jumlah murid 38 siswa, 33 siswa dan 5 siswi. tidak terlalu banyak informasi tentang kami, karena kami masih dalam proses pembelajaran. terimkasih",
                 speed: 50,
                 waitUntilVisible: true,
             }).go(); 
