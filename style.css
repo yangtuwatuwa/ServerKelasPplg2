@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
+   
 
 
 }
@@ -267,3 +268,98 @@ main .WarpContent1 .SekertarisKelas .textnya button:hover {
     color: white;
     transition: 1s;
 }
+
+main .WarpContent1 .BendaharaKelas {
+    display:flex;
+}
+
+main .WarpContent1 .BendaharaKelas .textnya {
+    margin-left: 5vmax;
+}
+
+main .WarpContent1 .BendaharaKelas .gambarnya { 
+    margin-left: 2vmax;
+
+}
+
+main .WarpContent1 .BendaharaKelas .gambarnya img {
+    border-radius: 50%;
+}
+
+main .WarpContent1 .BendaharaKelas .textnya button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .WarpContent1 .BendaharaKelas .textnya button {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+main .WarpContent1 .KeamananKelas {
+    display:flex;
+    margin-top: 5dvh;
+}
+
+main .WarpContent1 .KeamananKelas .textnya {
+    margin-left: 5vmax;
+}
+
+main .WarpContent1 .KeamananKelas .gambarnya { 
+    margin-left: 2vmax;
+
+}
+
+main .WarpContent1 .KeamananKelas .gambarnya img {
+    border-radius: 50%;
+}
+
+main .WarpContent1 .KeamananKelas .textnya button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .WarpContent1 .KeamananKelas .textnya button {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+main .WarpContent1 .KebersihanKelas {
+    display:flex;
+    margin-top: 5dvh;
+}
+
+main .WarpContent1 .KebersihanKelas .textnya {
+    margin-left: 5vmax;
+}
+
+main .WarpContent1 .KebersihanKelas .gambarnya { 
+    margin-left: 2vmax;
+
+}
+
+main .WarpContent1 .KebersihanKelas .gambarnya img {
+    border-radius: 50%;
+}
+
+main .WarpContent1 .KebersihanKelas .textnya button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .WarpContent1 .KebersihanKelas .textnya button {
+    padding: 15px;
+    border-radius: 20px;
+}
+/*Main Content2*/
+main .isiKontenKedua{
+    margin-top:10dvh ;
+}
+main .isiKontenKedua h1{
+    display:flex;
+    justify-content: center;
+}
+
