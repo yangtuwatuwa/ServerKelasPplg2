@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(to right bottom, #0d0606, #110b0b, #141010, #171414, #191717, #1e1c1c, #222121, #272626, #302f2f, #393838, #424141, #4c4a4a);
+    height: 610px;
+    background-repeat: no-repeat;
+}
+
+body main div.foto1 div.text1 h3 {
+    color: white;
+}
+
+body main div.foto1 div.text1 p {
+    color: white;
+}
+
+body main div.foto1 {
+    display: flex;
+    gap: 25px;
+}
+
+body main div.foto1 img{
+    height: 250px;
+}

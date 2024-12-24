@@ -14,7 +14,7 @@ function side() {
 //ini adalah lib h1 yakkk
     document.addEventListener("DOMContentLoaded", function () {
         new TypeIt("#Kelas", {
-            strings: ["KELAS PPLG 2 AKT 24"],
+            strings: ["KELAS PPLG 2 AKT 27"],
         }).go();
         });
         document.addEventListener("DOMContentLoaded", function () {
