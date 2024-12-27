@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jadwal</title>
+    <title>Card Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-title {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .card-subtitle {
+            font-size: 18px;
+            color: #777;
+            margin: 5px 0;
+        }
+        .card-description {
+            font-size: 14px;
+            color: #555;
+            margin: 10px 0;
+        }
+        .card-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .card-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Profile Picture">
+        <div class="card-content">
+            <h2 class="card-title">Nama Lengkap</h2>
+            <h3 class="card-subtitle">Jabatan</h3>
+            <p class="card-description">Deskripsi singkat tentang individu ini. Anda dapat menambahkan informasi tambahan di sini.</p>
+            <a href="#" class="card-button">Lihat Profil</a>
+        </div>
+    </div>
+
 </body>
 </html>

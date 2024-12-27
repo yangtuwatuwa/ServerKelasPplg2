@@ -3,9 +3,6 @@
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
-   
-
-
 }
 /*header*/
 header nav{
@@ -357,9 +354,78 @@ main .WarpContent1 .KebersihanKelas .textnya button {
 /*Main Content2*/
 main .isiKontenKedua{
     margin-top:10dvh ;
+    width: 100%;
 }
 main .isiKontenKedua h1{
     display:flex;
     justify-content: center;
 }
 
+main .isiKontenKedua .Pembungkus .cardInformation{
+    width: 15.7rem;
+    height: 400px;
+    background-color: rgb(194, 190, 190);
+    border: 2px solid rgb(0, 0, 0);
+}
+main .isiKontenKedua .Pembungkus .cardInformation h2{
+    background-color: rgb(194, 190, 190);
+}
+
+main .isiKontenKedua .Pembungkus .cardInformation p{
+    background-color: rgb(194, 190, 190);
+}
+main .isiKontenKedua .Pembungkus{
+    background-color: rgb(194, 190, 190);
+    margin-left: 10px;
+    width: 15.7rem;
+} 
+main .isiKontenKedua .Pembungkus .cardInformation .teksnya{
+    background-color: rgb(194, 190, 190);
+}
+main .isiKontenKedua .Pembungkus .cardInformation .teksnya button{
+    margin-top: 101px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 25px;
+}
+
+.isiKontenKedua .semua{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.Pembungkus2 .cardInformation .teksnya{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(194, 190, 190);
+    
+}
+
+.Pembungkus2 .cardInformation .teksnya button{
+    margin-top: 120px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 25px;
+}
+
+.Pembungkus2 .cardInformation{
+    background-color: rgb(194, 190, 190);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+main .Pembungkus2{
+    background-color: rgb(194, 190, 190);
+}
+
+main .Pembungkus2 .cardInformation .teksnya h2{
+    background-color: rgb(194, 190, 190);
+}
+
+main .Pembungkus2 .cardInformation .teksnya p{
+    background-color: rgb(194, 190, 190);
+}
