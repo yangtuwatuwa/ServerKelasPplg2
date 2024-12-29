@@ -412,7 +412,9 @@ main .isiKontenKedua .Pembungkus .cardInformation .teksnya button{
     width: 100%;
     height: 25px;
 }
-
+.Pembungkus2 .cardInformation .teksnya a{
+    background-color:rgb(194, 190, 190);
+}
 .Pembungkus2 .cardInformation{
     background-color: rgb(194, 190, 190);
     border: 2px solid rgb(0, 0, 0);
@@ -428,4 +430,31 @@ main .Pembungkus2 .cardInformation .teksnya h2{
 
 main .Pembungkus2 .cardInformation .teksnya p{
     background-color: rgb(194, 190, 190);
+}
+
+main .IsiKontenKe3 h1, .IsiKontenKe3 H2{
+    display: flex;
+    justify-content: center;
+
+}
+main .IsiKontenKe3 h1{
+    margin-top: 50px;
+}
+.lagu {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.GaleriKami .pic1{
+    display: flex;
+
+}
+.GaleriKami{
+    margin-top: 50px;
+}
+.GaleriKami .pic1 .tulisannya{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
