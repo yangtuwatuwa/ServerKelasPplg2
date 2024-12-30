@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.Container .warpContainer .DALEMNYA form input[type="Password"]{
+    border: none;
+    padding-right: 132px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.Container .warpContainer .DALEMNYA form input[type="Username"]{
+    border: none;
+    padding-right: 132px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+body 
+.Container .warpContainer .DALEMNYA .formnya label{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Container .warpContainer .DALEMNYA .formnya {
+    margin-top: 20px;
+}
+.Container .warpContainer .DALEMNYA form input:active{
+    border: none;
+}
+
+.Container{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+ 
+}
+.Container .warpContainer h2{
+    display: flex;
+    justify-content: center;
+    margin-top:20px ;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    background-image: linear-gradient(to right bottom, #c1ff00, #9aff62, #7bff94, #6bffbd, #74ffdb, #68ffdc, #5bffdd, #4bffde, #00ffc2, #00ff9b, #00ff68, #0fff00);
+}
+
+.Container .warpContainer hr{
+    width: 300px;
+    margin-left: 15px;
+}
+
+.Container .warpContainer .DALEMNYA form .button  input[type="submit"]{
+    background-color: blue;
+    color: white;
+    padding:15px 120px 15px 120px;
+    border-radius: 20px;
+    display: flex;
+    border: none;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.Container .warpContainer .DALEMNYA form .button{
+    display: flex;
+    justify-content: center;
+}
+
+.Container .warpContainer .DALEMNYA form a{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
