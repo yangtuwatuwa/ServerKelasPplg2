@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to right bottom, #0d0606, #110b0b, #141010, #171414, #191717, #1e1c1c, #222121, #272626, #302f2f, #393838, #424141, #4c4a4a);
-    height: 610px;
+    height: 100vh;
     background-repeat: no-repeat;
 }
 
@@ -18,5 +18,22 @@ body main div.foto1 {
 }
 
 body main div.foto1 img{
+    height: 250px;
+}
+
+body main div.foto2 div.text2 h3 {
+    color: white;
+}
+
+body main div.foto2 div.text2 p {
+    color: white;
+}
+
+body main div.foto2 {
+    display: flex;
+    gap: 25px;
+}
+
+body main div.foto2 img {
     height: 250px;
 }
