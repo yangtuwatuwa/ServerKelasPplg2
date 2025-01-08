@@ -25,5 +25,26 @@ function side() {
             }).go(); 
         })
 
-//hallo kawand
+//JADWAL KELAS YAKK
         
+function Jadwal() {
+    alert ("MASIH DALAM TAHAP PENGEMBANGAN TUNGGU NANTI YA BANGG");
+}
+document.addEventListener("DOMContentLoaded",
+function () {
+    swal("MAAF MASIH DALAM TAHAP DEVELOPMENT :)"); 
+}
+,
+function () {
+    swal("hello world")
+});
+
+function NamaSiswa(){
+    
+    if( confirm ("apakah kamu ingin ke web selanjutnya?") == true)
+        { 
+        window.location.assign = ("https://www.google.com");
+    } else {
+        alert ("okee")
+    }
+}

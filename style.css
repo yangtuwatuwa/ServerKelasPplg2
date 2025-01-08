@@ -4,6 +4,13 @@
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
 }
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
 /*header*/
 header nav{
     justify-content: space-between;
