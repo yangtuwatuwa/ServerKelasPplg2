@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
+    
 }
 
 
@@ -36,8 +37,12 @@ header nav ul li button{
 }
 header nav ul li button:hover {
     cursor: pointer;
+    
     display: block;
     opacity: 1;
+}
+header nav ul li button svg .ham {
+    stroke: gray;
 }
 header nav ul li a p{
     font-size: 15px;
@@ -332,6 +337,7 @@ main .WarpContent1 .KeamananKelas .textnya button {
 
 main .WarpContent1 .KebersihanKelas {
     display:flex;
+
     margin-top: 5dvh;
 }
 
@@ -341,14 +347,13 @@ main .WarpContent1 .KebersihanKelas .textnya {
 
 main .WarpContent1 .KebersihanKelas .gambarnya { 
     margin-left: 2vmax;
-
 }
 
 main .WarpContent1 .KebersihanKelas .gambarnya img {
     border-radius: 50%;
 }
-
 main .WarpContent1 .KebersihanKelas .textnya button:hover {
+
     background-color: black;
     color: white;
     transition: 1s;
@@ -368,100 +373,6 @@ main .isiKontenKedua h1{
     justify-content: center;
 }
 
-main .isiKontenKedua .Pembungkus .cardInformation{
-    width: 15.7rem;
-    height: 400px;
-    background-color: rgb(194, 190, 190);
-    border: 2px solid rgb(0, 0, 0);
-}
-main .isiKontenKedua .Pembungkus .cardInformation h2{
-    background-color: rgb(194, 190, 190);
-}
-
-main .isiKontenKedua .Pembungkus .cardInformation p{
-    background-color: rgb(194, 190, 190);
-}
 main .isiKontenKedua .Pembungkus{
-    background-color: rgb(194, 190, 190);
-    margin-left: 10px;
-    width: 15.7rem;
-} 
-main .isiKontenKedua .Pembungkus .cardInformation .teksnya{
-    background-color: rgb(194, 190, 190);
-}
-main .isiKontenKedua .Pembungkus .cardInformation .teksnya button{
-    margin-top: 101px;
-    border: none;
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 25px;
-}
-
-.isiKontenKedua .semua{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-.Pembungkus2 .cardInformation .teksnya{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(194, 190, 190);
-    
-}
-
-.Pembungkus2 .cardInformation .teksnya button{
-    margin-top: 120px;
-    border: none;
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 25px;
-}
-.Pembungkus2 .cardInformation .teksnya a{
-    background-color:rgb(194, 190, 190);
-}
-.Pembungkus2 .cardInformation{
-    background-color: rgb(194, 190, 190);
-    border: 2px solid rgb(0, 0, 0);
-}
-
-main .Pembungkus2{
-    background-color: rgb(194, 190, 190);
-}
-
-main .Pembungkus2 .cardInformation .teksnya h2{
-    background-color: rgb(194, 190, 190);
-}
-
-main .Pembungkus2 .cardInformation .teksnya p{
-    background-color: rgb(194, 190, 190);
-}
-
-main .IsiKontenKe3 h1, .IsiKontenKe3 H2{
-    display: flex;
-    justify-content: center;
-
-}
-main .IsiKontenKe3 h1{
-    margin-top: 50px;
-}
-.lagu {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.GaleriKami .pic1{
-    display: flex;
-
-}
-.GaleriKami{
-    margin-top: 50px;
-}
-.GaleriKami .pic1 .tulisannya{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 100px;
 }
