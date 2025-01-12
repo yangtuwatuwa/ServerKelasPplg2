@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
-    
+
 }
 
 
@@ -158,6 +158,16 @@ body main {
 main .isikontenpertama h1{
     display: flex;
     justify-content: center;
+}
+main .isikontenpertama .gambar-1{
+    display: flex;
+    justify-content: center;
+}
+
+main .isikontenpertama .gambar-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 main .WarpContent1 .warpcontainer2 {
     display: flex;
