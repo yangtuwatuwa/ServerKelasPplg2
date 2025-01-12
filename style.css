@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
-
+   
 }
 
 
@@ -169,6 +169,17 @@ main .isikontenpertama .gambar-2{
     justify-content: space-around;
     align-items: center;
 }
+main .isikontenpertama .gambar-3{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+main .isikontenpertama .gambar-4{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 10dvh;
+}
 main .WarpContent1 .warpcontainer2 {
     display: flex;
     margin-top: 10dvh;
@@ -224,7 +235,7 @@ main .KetuaKelas {
 
 main .KetuaKelas .gambarnya{
     margin-right: 5vmax;
-    margin-left: 2vmax;
+
 }
 
 main .WarpContent1 .warpcontainer2 {
@@ -235,7 +246,7 @@ main .WarpContent1 .WakilKetuaKelas {
     margin-top: 5dvh;
     margin-bottom: 5dvh;
     display: flex;
-    margin-left: 2vmax;
+
 }
 
 main .WarpContent1 .WakilKetuaKelas .textnya {
@@ -252,8 +263,8 @@ main .WarpContent1 .WakilKetuaKelas .textnya button{
 }
 
 main .WarpContent1 .SekertarisKelas {
-    margin-top: 5dvh;
-    margin-bottom: 5dvh;
+    
+   
     display: flex;
     margin-left: 2vmax;
 }
@@ -293,13 +304,10 @@ main .WarpContent1 .BendaharaKelas {
 }
 
 main .WarpContent1 .BendaharaKelas .textnya {
-    margin-left: 5vmax;
+    margin-left: 3vmax;
 }
 
-main .WarpContent1 .BendaharaKelas .gambarnya { 
-    margin-left: 2vmax;
 
-}
 
 main .WarpContent1 .BendaharaKelas .gambarnya img {
     border-radius: 50%;
@@ -318,11 +326,11 @@ main .WarpContent1 .BendaharaKelas .textnya button {
 
 main .WarpContent1 .KeamananKelas {
     display:flex;
-    margin-top: 5dvh;
+
 }
 
 main .WarpContent1 .KeamananKelas .textnya {
-    margin-left: 5vmax;
+    margin-left: 3vmax;
 }
 
 main .WarpContent1 .KeamananKelas .gambarnya { 
@@ -347,12 +355,10 @@ main .WarpContent1 .KeamananKelas .textnya button {
 
 main .WarpContent1 .KebersihanKelas {
     display:flex;
-
-    margin-top: 5dvh;
 }
 
 main .WarpContent1 .KebersihanKelas .textnya {
-    margin-left: 5vmax;
+    margin-left: 3vmax;
 }
 
 main .WarpContent1 .KebersihanKelas .gambarnya { 
