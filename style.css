@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color: white;
-   
 }
 
 
@@ -383,12 +381,56 @@ main .WarpContent1 .KebersihanKelas .textnya button {
 main .isiKontenKedua{
     margin-top:10dvh ;
     width: 100%;
+
 }
 main .isiKontenKedua h1{
     display:flex;
     justify-content: center;
 }
 
-main .isiKontenKedua .Pembungkus{
+main .isiKontentKedua .semua{
+    display:flex;
+    width: 100%;
+
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    border: 5px solid rgb(78, 77, 77);
+    border-radius: 1  0px;
+}
+
+.card .teksnya{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card .teksnya button{
+    margin-top:100px ;
+    background-color: rgb(104, 104, 104);    
+    color: white;
+}
+
+.semua{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.isiKontenTiga {
     margin-top: 100px;
+}
+
+.isiKontenTiga h1  {
+    display: flex;
+    justify-content: center;
+}
+
+.kami {
+    display: flex;
+    justify-content: center;
 }
