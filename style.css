@@ -2,7 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color: white;
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
 }
 /*header*/
 header nav{
@@ -29,8 +35,12 @@ header nav ul li button{
 }
 header nav ul li button:hover {
     cursor: pointer;
+    
     display: block;
     opacity: 1;
+}
+header nav ul li button svg .ham {
+    stroke: gray;
 }
 header nav ul li a p{
     font-size: 15px;
@@ -147,6 +157,27 @@ main .isikontenpertama h1{
     display: flex;
     justify-content: center;
 }
+main .isikontenpertama .gambar-1{
+    display: flex;
+    justify-content: center;
+}
+
+main .isikontenpertama .gambar-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .isikontenpertama .gambar-3{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+main .isikontenpertama .gambar-4{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 10dvh;
+}
 main .WarpContent1 .warpcontainer2 {
     display: flex;
     margin-top: 10dvh;
@@ -202,7 +233,7 @@ main .KetuaKelas {
 
 main .KetuaKelas .gambarnya{
     margin-right: 5vmax;
-    margin-left: 2vmax;
+
 }
 
 main .WarpContent1 .warpcontainer2 {
@@ -213,7 +244,7 @@ main .WarpContent1 .WakilKetuaKelas {
     margin-top: 5dvh;
     margin-bottom: 5dvh;
     display: flex;
-    margin-left: 2vmax;
+
 }
 
 main .WarpContent1 .WakilKetuaKelas .textnya {
@@ -230,8 +261,8 @@ main .WarpContent1 .WakilKetuaKelas .textnya button{
 }
 
 main .WarpContent1 .SekertarisKelas {
-    margin-top: 5dvh;
-    margin-bottom: 5dvh;
+    
+   
     display: flex;
     margin-left: 2vmax;
 }
@@ -271,13 +302,10 @@ main .WarpContent1 .BendaharaKelas {
 }
 
 main .WarpContent1 .BendaharaKelas .textnya {
-    margin-left: 5vmax;
+    margin-left: 3vmax;
 }
 
-main .WarpContent1 .BendaharaKelas .gambarnya { 
-    margin-left: 2vmax;
 
-}
 
 main .WarpContent1 .BendaharaKelas .gambarnya img {
     border-radius: 50%;
@@ -296,11 +324,11 @@ main .WarpContent1 .BendaharaKelas .textnya button {
 
 main .WarpContent1 .KeamananKelas {
     display:flex;
-    margin-top: 5dvh;
+
 }
 
 main .WarpContent1 .KeamananKelas .textnya {
-    margin-left: 5vmax;
+    margin-left: 3vmax;
 }
 
 main .WarpContent1 .KeamananKelas .gambarnya { 
@@ -325,23 +353,21 @@ main .WarpContent1 .KeamananKelas .textnya button {
 
 main .WarpContent1 .KebersihanKelas {
     display:flex;
-    margin-top: 5dvh;
 }
 
 main .WarpContent1 .KebersihanKelas .textnya {
-    margin-left: 5vmax;
+    margin-left: 3vmax;
 }
 
 main .WarpContent1 .KebersihanKelas .gambarnya { 
     margin-left: 2vmax;
-
 }
 
 main .WarpContent1 .KebersihanKelas .gambarnya img {
     border-radius: 50%;
 }
-
 main .WarpContent1 .KebersihanKelas .textnya button:hover {
+
     background-color: black;
     color: white;
     transition: 1s;
@@ -355,106 +381,56 @@ main .WarpContent1 .KebersihanKelas .textnya button {
 main .isiKontenKedua{
     margin-top:10dvh ;
     width: 100%;
+
 }
 main .isiKontenKedua h1{
     display:flex;
     justify-content: center;
 }
 
-main .isiKontenKedua .Pembungkus .cardInformation{
-    width: 15.7rem;
-    height: 400px;
-    background-color: rgb(194, 190, 190);
-    border: 2px solid rgb(0, 0, 0);
-}
-main .isiKontenKedua .Pembungkus .cardInformation h2{
-    background-color: rgb(194, 190, 190);
-}
-
-main .isiKontenKedua .Pembungkus .cardInformation p{
-    background-color: rgb(194, 190, 190);
-}
-main .isiKontenKedua .Pembungkus{
-    background-color: rgb(194, 190, 190);
-    margin-left: 10px;
-    width: 15.7rem;
-} 
-main .isiKontenKedua .Pembungkus .cardInformation .teksnya{
-    background-color: rgb(194, 190, 190);
-}
-main .isiKontenKedua .Pembungkus .cardInformation .teksnya button{
-    margin-top: 101px;
-    border: none;
-    background-color: black;
-    color: white;
+main .isiKontentKedua .semua{
+    display:flex;
     width: 100%;
-    height: 25px;
+
 }
 
-.isiKontenKedua .semua{
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    border: 5px solid rgb(78, 77, 77);
+    border-radius: 1  0px;
+}
+
+.card .teksnya{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card .teksnya button{
+    margin-top:100px ;
+    background-color: rgb(104, 104, 104);    
+    color: white;
+}
+
+.semua{
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin: 100px;
 }
 
-.Pembungkus2 .cardInformation .teksnya{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(194, 190, 190);
-    
+.isiKontenTiga {
+    margin-top: 100px;
 }
 
-.Pembungkus2 .cardInformation .teksnya button{
-    margin-top: 120px;
-    border: none;
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 25px;
-}
-.Pembungkus2 .cardInformation .teksnya a{
-    background-color:rgb(194, 190, 190);
-}
-.Pembungkus2 .cardInformation{
-    background-color: rgb(194, 190, 190);
-    border: 2px solid rgb(0, 0, 0);
-}
-
-main .Pembungkus2{
-    background-color: rgb(194, 190, 190);
-}
-
-main .Pembungkus2 .cardInformation .teksnya h2{
-    background-color: rgb(194, 190, 190);
-}
-
-main .Pembungkus2 .cardInformation .teksnya p{
-    background-color: rgb(194, 190, 190);
-}
-
-main .IsiKontenKe3 h1, .IsiKontenKe3 H2{
+.isiKontenTiga h1  {
     display: flex;
     justify-content: center;
-
-}
-main .IsiKontenKe3 h1{
-    margin-top: 50px;
-}
-.lagu {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
 }
 
-.GaleriKami .pic1{
+.kami {
     display: flex;
-
-}
-.GaleriKami{
-    margin-top: 50px;
-}
-.GaleriKami .pic1 .tulisannya{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
 }
