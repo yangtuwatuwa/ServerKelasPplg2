@@ -5,10 +5,8 @@
 }
 
 
-
-
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 /*header*/
 header nav{
@@ -35,7 +33,6 @@ header nav ul li button{
 }
 header nav ul li button:hover {
     cursor: pointer;
-    
     display: block;
     opacity: 1;
 }
@@ -97,7 +94,6 @@ header .warpContainer1 .incontainer2 h1:hover{
     color: white;
     display: flex;
     justify-content: center;
-    
 }
 header .warpContainer1 .incontainer2 button{
     padding: 10px;
@@ -110,7 +106,6 @@ header .warpContainer1 .incontainer2 button:hover{
     color: white;
     border-radius: 10px;
     transition: 1s;
-    
 }
 
 header #SideBar {
@@ -131,7 +126,6 @@ header #SideBar {
     transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out   ;
     opacity: 0;
     visibility: hidden;
-    
 }
 
 header #SideBar li {
@@ -147,8 +141,6 @@ header #SideBar li a{
 }
 
 /*main container */
-
-
 body main {
     margin-top:40dvh ;
 }
@@ -168,15 +160,15 @@ main .isikontenpertama .gambar-2{
     align-items: center;
 }
 main .isikontenpertama .gambar-3{
-display: flex;
-justify-content: space-around;
-align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 main .isikontenpertama .gambar-4{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-margin-top: 10dvh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10dvh;
 }
 main .WarpContent1 .warpcontainer2 {
     display: flex;
@@ -185,7 +177,6 @@ main .WarpContent1 .warpcontainer2 {
 main .WarpContent1 .warpcontainer2 img{
     border-radius: 50%;
     margin-left: 5dvh;
-    
 }
 
 main .WarpContent1 .warpcontainer2  .textnya{
@@ -261,8 +252,6 @@ main .WarpContent1 .WakilKetuaKelas .textnya button{
 }
 
 main .WarpContent1 .SekertarisKelas {
-    
-   
     display: flex;
     margin-left: 2vmax;
 }
@@ -305,8 +294,6 @@ main .WarpContent1 .BendaharaKelas .textnya {
     margin-left: 3vmax;
 }
 
-
-
 main .WarpContent1 .BendaharaKelas .gambarnya img {
     border-radius: 50%;
 }
@@ -324,7 +311,6 @@ main .WarpContent1 .BendaharaKelas .textnya button {
 
 main .WarpContent1 .KeamananKelas {
     display:flex;
-
 }
 
 main .WarpContent1 .KeamananKelas .textnya {
@@ -422,7 +408,7 @@ main .isiKontentKedua .semua{
 }
 
 .isiKontenTiga {
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 .isiKontenTiga h1  {

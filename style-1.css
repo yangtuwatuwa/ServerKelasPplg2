@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(to right bottom, #0d0606, #110b0b, #141010, #171414, #191717, #1e1c1c, #222121, #272626, #302f2f, #393838, #424141, #4c4a4a);
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
 }
 
@@ -35,5 +35,141 @@ body main div.foto2 {
 }
 
 body main div.foto2 img {
+    height: 250px;
+}
+
+body main div.foto3 div.text3 h3 {
+    color: white;
+}
+
+body main div.foto3 div.text3 p {
+    color: white;
+}
+
+body main div.foto3 {
+    display: flex;
+    gap: 25px;
+}
+
+body main div.foto3 img {
+    height: 250px;
+}
+
+body main div.foto4 div.text4 h3 {
+    color: white;
+}
+
+body main div.foto4 div.text4 p {
+    color: white;
+}
+
+body main div.foto4 {
+    display: flex;
+    gap: 25px;
+}
+
+body main div.foto4 img {
+    height: 250px;
+}
+
+body main div.foto5 div.text5 h3 {
+    color: white;
+}
+
+body main div.foto5 div.text5 p {
+    color: white;
+}
+
+body main div.foto5 {
+    display: flex;
+    gap: 25px;
+}
+
+body main div.foto5 img {
+    height: 250px;
+}
+
+body main div.foto6 div.text6 h3 {
+    color: white;
+}
+
+body main div.foto6 div.text6 p {
+    color: white;
+}
+
+body main div.foto6 {
+    display: flex;
+    gap: 25px;
+}
+
+body main div.foto6 img {
+    height: 250px;
+}
+
+body main div.foto7 div.text7 h3 {
+    color: white;
+}
+
+body main div.foto7 div.text7 p {
+    color: white;
+}
+
+body main div.foto7 {
+    display: flex;
+    gap: 25px;
+}
+
+body main div.foto7 img {
+    height: 250px;
+}
+
+body main div.foto8 div.text8 h3 {
+    color: white;
+}
+
+body main div.foto8 div.text8 p {
+    color: white;
+}
+
+body main div.foto8 {
+    display: flex;
+    gap: 25px;
+}
+
+body main div.foto8 img {
+    height: 250px;
+}
+
+body main div.foto9 div.text9 h3 {
+    color: white;
+}
+
+body main div.foto9 div.text9 p {
+    color: white;
+}
+
+body main div.foto9 {
+    display: flex;
+    gap: 25px;
+}
+
+body main div.foto9 img {
+    height: 250px;
+}
+
+body main div.foto10 div.text10 h3 {
+    color: white;
+}
+
+body main div.foto10 div.text10 p {
+    color: white;
+}
+
+body main div.foto10 {
+    display: flex;
+    gap: 25px;
+}
+
+body main div.foto10 img {
     height: 250px;
 }
