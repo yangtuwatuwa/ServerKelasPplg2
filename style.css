@@ -142,7 +142,8 @@ header #SideBar li a{
 
 /*main container */
 body main {
-    margin-top:40dvh ;
+    margin-top:40dvh;
+    margin-bottom: 10px;
 }
 
 main .isikontenpertama h1{
@@ -419,4 +420,9 @@ main .isiKontentKedua .semua{
 .kami {
     display: flex;
     justify-content: center;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
 }
