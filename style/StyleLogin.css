@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}                   
+header img{
+    width: 5%;
+    background-color: white;
+    border-radius: 50%;
+    margin-top:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header nav ol{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+header nav ol li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+header nav ol li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+main .container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center ;
+}
+
+main .container .formulir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

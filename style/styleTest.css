@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .image-container {
+    margin-top: 20px;
+  }
+  
+  img {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #text {
+    margin-top: 20px;
+    color: #333;
+    font-size: 18px;
+  }
+  

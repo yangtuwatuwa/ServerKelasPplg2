@@ -1,50 +1,68 @@
-//ini adalah side bar 
-function side() {
-    var text = document.getElementById("SideBar");
-    if (text.style.opacity === "0" || text.style.opacity === "") {
-        text.style.opacity = "1";
-        text.style.visibility = "visible";
-        text.style.transition = "opacity 0.5s ease-in-out, visibility 0.5s ease-in-out";
-    } else {
-        text.style.opacity = "0";
-        text.style.visibility = "hidden";
-        text.style.transition = "opacity 0.5s ease-in-out, visibility 0.5s ease-in-out";
-    }
-}
-//ini adalah lib h1 yakkk
-    document.addEventListener("DOMContentLoaded", function () {
-        new TypeIt("#Kelas", {
-            strings: ["KELAS PPLG 2 AKT 27"],
-        }).go();
-        });
-        document.addEventListener("DOMContentLoaded", function () {
-            new TypeIt("#Sejarahnya", {
-                strings: "Kami adalah siswa/siswi kelas PPLG 2 Angkatan 2027 dari SMK Yayasan Leo Sutrisno. kelas Kami memiliki jumlah murid 35 siswa, 30 siswa dan 5 siswi. tidak terlalu banyak informasi tentang kami, karena kami masih dalam proses pembelajaran. terimakasih",
-                speed: 50,
-                waitUntilVisible: true,
-            }).go(); 
-        })
+// Menunggu seluruh halaman (HTML) selesai dimuat sebelum menjalankan skrip
+document.addEventListener("DOMContentLoaded", function () {
 
-//JADWAL KELAS YAKK
-        
-function Jadwal() {
-    alert ("MASIH DALAM TAHAP PENGEMBANGAN TUNGGU NANTI YA BANGG");
-}
-document.addEventListener("DOMContentLoaded",
-function () {
-    swal("MAAF MASIH DALAM TAHAP DEVELOPMENT :)"); 
-}
-,
-function () {
-    swal("hello world")
+    // --- Inisialisasi Pustaka (Library) ---
+    // Tampilkan pesan selamat datang sekali saja saat halaman dimuat
+    swal("MAAF, WEBSITE MASIH DALAM TAHAP DEVELOPMENT :)");
+
+    // Inisialisasi TypeIt untuk elemen #Kelas
+    new TypeIt("#Kelas", {
+        strings: ["KELAS PPLG 2 AKT 27"],
+        speed: 75,
+        waitUntilVisible: true,
+    }).go();
+
+    // Inisialisasi TypeIt untuk elemen #Sejarahnya
+    new TypeIt("#Sejarahnya", {
+        strings: "Kami adalah siswa/siswi kelas PPLG 2 Angkatan 2027 dari SMK Yayasan Leo Sutrisno. Kelas kami memiliki jumlah murid 35 siswa, 30 siswa dan 5 siswi. Tidak terlalu banyak informasi tentang kami, karena kami masih dalam proses pembelajaran. Terimakasih.",
+        speed: 50,
+        waitUntilVisible: true,
+    }).go();
 });
 
-function NamaSiswa(){
-    
-    if( confirm ("apakah kamu ingin ke web selanjutnya?") == true)
-        { 
-        window.location.assign = ("https://www.google.com");
+// --- Fungsi untuk Interaksi Pengguna ---
+
+/**
+ * Fungsi untuk menampilkan atau menyembunyikan sidebar.
+ * Lebih efisien dengan menggunakan toggle class CSS.
+ */
+function side() {
+    const sideBarElement = document.getElementById("SideBar");
+    if (sideBarElement) { // Cek apakah elemen ada sebelum memanipulasinya
+        sideBarElement.classList.toggle("active");
     } else {
-        alert ("okee")
+        console.error("Elemen dengan ID 'SideBar' tidak ditemukan.");
     }
+}
+
+/**
+ * Fungsi untuk menampilkan notifikasi Jadwal.
+ * Menggunakan SweetAlert agar konsisten dengan notifikasi lain.
+ */
+function Jadwal() {
+    swal("Fitur Jadwal Masih Dalam Pengembangan", "Mohon tunggu pembaruan selanjutnya ya!", "info");
+}
+
+/**
+ * Fungsi untuk mengarahkan pengguna ke halaman daftar nama siswa.
+ * Memperbaiki bug pada window.location.
+ */
+function NamaSiswa() {
+    swal({
+        title: "Pindah Halaman?",
+        text: "Anda akan diarahkan ke halaman daftar siswa. Lanjutkan?",
+        icon: "warning",
+        buttons: ["Batal", "Ya, Lanjutkan!"],
+        dangerMode: true,
+    })
+    .then((willRedirect) => {
+        if (willRedirect) {
+            // CARA YANG BENAR untuk redirect:
+            window.location.href = "https://www.google.com"; // Ganti dengan URL halaman nama siswa Anda
+        } else {
+            swal("Aksi dibatalkan.", {
+                icon: "error",
+            });
+        }
+    });
 }

@@ -1,0 +1,494 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+/*header*/
+header nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li button{
+    width: 200px;
+    background-color: white;
+    border: none;
+}
+header nav ul li button:hover {
+    cursor: pointer;
+    
+    display: block;
+    opacity: 1;
+}
+header nav ul li button svg .ham {
+    stroke: gray;
+}
+header nav ul li a p{
+    font-size: 15px;
+}
+header nav ul li a p, header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a p:hover, header nav ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: 200ms;
+    border-radius: 20px;
+    margin: 7px;
+    padding: 5px;
+}
+
+header .warpContainer1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around ;
+    margin-top: 5rem;
+}
+
+header .warpContainer1 .incontainer1{
+    float: right;
+    display: flex;
+}
+header .warpContainer1 .incontainer1 img{
+    border: 10px solid black;
+    border-radius:10px;
+}
+header .warpContainer1 .incontainer2{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+header .warpContainer1 .incontainer2 p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+header .warpContainer1 .incontainer2 .textdivision h1{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+header .warpContainer1 .incontainer2 h1:hover{
+    transform: 3s;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+header .warpContainer1 .incontainer2 button{
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+header .warpContainer1 .incontainer2 button:hover{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+header #SideBar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    float: right;
+    background-color: black;
+    height: 83vmin;
+    width: 8%;
+    position: sticky;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    margin-left: -90px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out   ;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+header #SideBar li {
+    list-style: none;
+    margin-top: 10px;
+    background-color: black;
+}
+
+header #SideBar li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+/*main container */
+
+
+body main {
+    margin-top:40dvh ;
+}
+
+main .isikontenpertama h1{
+    display: flex;
+    justify-content: center;
+}
+main .isikontenpertama .gambar-1{
+    display: flex;
+    justify-content: center;
+}
+
+main .isikontenpertama .gambar-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .isikontenpertama .gambar-3{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+main .isikontenpertama .gambar-4{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 10dvh;
+}
+main .WarpContent1 .warpcontainer2 {
+    display: flex;
+    margin-top: 10dvh;
+}
+main .WarpContent1 .warpcontainer2 img{
+    border-radius: 50%;
+    margin-left: 5dvh;
+    
+}
+
+main .WarpContent1 .warpcontainer2  .textnya{
+    margin-left: 5vmax;
+}
+main .WarpContent1 .warpcontainer2 img{
+    margin-left: 2vmax;
+}
+
+main .WarpContent1 .warpcontainer2 .textnya button{
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+}
+main .WarpContent1 .warpcontainer2 .textnya button a{
+    text-decoration: none;
+    color:black;
+}
+
+main .KetuaKelas .textnya button{
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+}
+
+main .KetuaKelas .textnya button a{
+    color: black;
+    text-decoration: none;
+}
+
+main .KetuaKelas .textnya button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .KetuaKelas img{
+    border-radius: 50%;
+}
+
+main .KetuaKelas {
+    display: flex;
+}
+
+main .KetuaKelas .gambarnya{
+    margin-right: 5vmax;
+
+}
+
+main .WarpContent1 .warpcontainer2 {
+    margin-bottom:5dvh ;
+}
+
+main .WarpContent1 .WakilKetuaKelas { 
+    margin-top: 5dvh;
+    margin-bottom: 5dvh;
+    display: flex;
+
+}
+
+main .WarpContent1 .WakilKetuaKelas .textnya {
+    margin-left: 5vmax;
+}
+
+main .WarpContent1 .WakilKetuaKelas img{
+    border-radius: 50%;
+}
+
+main .WarpContent1 .WakilKetuaKelas .textnya button{
+    padding: 15px;
+    border-radius: 20px;
+}
+
+main .WarpContent1 .SekertarisKelas {
+    
+   
+    display: flex;
+    margin-left: 2vmax;
+}
+main .WarpContent1 .SekertarisKelas .textnya{
+    margin-left: 5vmax;
+}
+
+main .WarpContent1 .SekertarisKelas img{
+    border-radius: 50%;
+}
+
+main .WakilKetuaKelas .textnya button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .warpcontainer2 .textnya button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .WarpContent1 .SekertarisKelas .textnya button {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+main .WarpContent1 .SekertarisKelas .textnya button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .WarpContent1 .BendaharaKelas {
+    display:flex;
+}
+
+main .WarpContent1 .BendaharaKelas .textnya {
+    margin-left: 3vmax;
+}
+
+
+
+main .WarpContent1 .BendaharaKelas .gambarnya img {
+    border-radius: 50%;
+}
+
+main .WarpContent1 .BendaharaKelas .textnya button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .WarpContent1 .BendaharaKelas .textnya button {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+main .WarpContent1 .KeamananKelas {
+    display:flex;
+
+}
+
+main .WarpContent1 .KeamananKelas .textnya {
+    margin-left: 3vmax;
+}
+
+main .WarpContent1 .KeamananKelas .gambarnya { 
+    margin-left: 2vmax;
+
+}
+
+main .WarpContent1 .KeamananKelas .gambarnya img {
+    border-radius: 50%;
+}
+
+main .WarpContent1 .KeamananKelas .textnya button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .WarpContent1 .KeamananKelas .textnya button {
+    padding: 15px;
+    border-radius: 20px;
+}
+
+main .WarpContent1 .KebersihanKelas {
+    display:flex;
+}
+
+main .WarpContent1 .KebersihanKelas .textnya {
+    margin-left: 3vmax;
+}
+
+main .WarpContent1 .KebersihanKelas .gambarnya { 
+    margin-left: 2vmax;
+}
+
+main .WarpContent1 .KebersihanKelas .gambarnya img {
+    border-radius: 50%;
+}
+main .WarpContent1 .KebersihanKelas .textnya button:hover {
+
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+main .WarpContent1 .KebersihanKelas .textnya button {
+    padding: 15px;
+    border-radius: 20px;
+}
+/*Main Content2*/
+main .isiKontenKedua{
+    margin-top:10dvh ;
+    width: 100%;
+
+}
+main .isiKontenKedua h1{
+    display:flex;
+    justify-content: center;
+}
+
+main .isiKontentKedua .semua{
+    display:flex;
+    width: 100%;
+
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    border: 5px solid rgb(78, 77, 77);
+    border-radius: 1  0px;
+}
+
+.card .teksnya{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card .teksnya button{
+    margin-top:100px ;
+    background-color: rgb(104, 104, 104);    
+    color: white;
+}
+
+.semua{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.isiKontenTiga {
+    margin-top: 100px;
+}
+
+.isiKontenTiga h1  {
+    display: flex;
+    justify-content: center;
+}
+
+.kami {
+    display: flex;
+    justify-content: center;
+}
+
+.gambar1{
+    background-image: url(../image/WhatsApp\ Image\ 2024-07-15\ at\ 08.37.47_35616e7a.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+
+}
+
+.gambar1 .teksnya{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.2); /* Warna transparan */
+    backdrop-filter: blur(10px); /* Efek blur */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.Album{
+    background: rgba(255, 255, 255, 0.2); /* Transparan */
+    backdrop-filter: blur(10px); /* Blur efek */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.Album:hover{
+    background: rgba(255, 255, 255, 0.4); /* Lebih terang saat hover */
+    transform: scale(1.05); /* Efek zoom */
+}
+
+.menghitung{
+    display: flex;
+    flex-direction: column;
+}
+
+.menghitung input, .menghitung button{
+    width: 10%;
+    
+}
